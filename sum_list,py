@@ -1,0 +1,22 @@
+a = [213,2324,21,23,123]
+print(sum(a))
+
+a = (7, 4, 0, 0, 3,0, 5, 12)
+n = a.count(0)
+print(n)
+
+
+m ={
+    0:"neshan",
+    1:"supps",
+    2:"preks"
+}
+print(m,  type(m))
+print(m.get(0))
+print(m.pop(2))
+print(m)
+
+a = {} #empty dictionary
+a = set() #empty sets
+a ={1,2,3,44,4,4,}
+print (a)
